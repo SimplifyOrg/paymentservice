@@ -8,4 +8,5 @@ import lombok.Setter;
 @Getter
 public class PaymentRequestDTO {
     public String order_id;
+    public Long amount;
 }

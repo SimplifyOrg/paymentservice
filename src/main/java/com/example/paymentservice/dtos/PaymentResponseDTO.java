@@ -6,5 +6,6 @@ import lombok.Setter;
 @Setter
 @Getter
 public class PaymentResponseDTO {
-
+    public String status;
+    public String paymentLink;
 }
